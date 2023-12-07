@@ -2,9 +2,11 @@
 
 Please find the code for this assignment here: [data-sourcing-challenge/blob/main/retrieve_movie_data.ipynb](https://github.com/mmccanse/data-sourcing-challenge/blob/main/retrieve_movie_data.ipynb). 
 
+The csv output for this assignment can be found here: [data-sourcing-challenge/blob/main/Outputs/movie_data.csv](https://github.com/mmccanse/data-sourcing-challenge/blob/main/Outputs/movie_data.csv)
+
 In completing this assignment, I referenced class activities, class slide decks, and utilized a Chat GPT assistance prompt provided by the instructor to serve as a teaching assistant.  
 
-In Part 1, item 6 of the instructions, students are provided wiht code to use to create a lamda function to parse out the movie title. This is the code provided
+In Part 1, item 6 of the instructions, students are provided with code to use to create a lamda function to parse out the movie title. This is the code provided
 
 lambda st: st[st.find("\u2018")+1:st.find("\u2019 Review")]
 
